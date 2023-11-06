@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Porfolio</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <header class="headers">
+            <nav>
+
+                <div class="right-nav">
+                    <a href="#home">
+                        <img src="./logo.jpg" alt="Julia">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="home" class="home" id="home">
+
+            <div class="content-home" data-aos="fade-right">
+                <h1>Hello, Julia Reusora</h1>
+                <h2>Web Developer</h2>
+                <p>I'm an student at St.Clare Collage</p>
+            </div>
+
+            <div class="photo-home" data-aos="fade-left">
+                <img src="./profile.jpg">
+            </div>
+        </section>
+        <hr>
+
+        <section class="about" class="about" id="about">
+
+            <div class="photo-about" data-aos="fade-up-right">
+                <img src="./about.jpg">
+            </div>
+
+            <div class="about-content" data-aos="fade-up-left">
+                <h1>JULIA REUSORA</h1>
+                <p>Circle of Fun, Diliman, Quezon City, Metro Manila</p>
+                <h5>I am an enthusiastic, self-motivated, reliable, responsible
+                    and hard working person. I am a mature team worker and
+                    adaptable to all challenging situations. I am able to work
+                    well both in a team environment as well as using own
+                    initiative. I am able to work well under pressure and adhere
+                    to strict deadlines.</h5>
+
+                    <ul class="socials">
+                             
+                                  
+                      <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-sm"></i></i></i></a></li>
+                      <li><a href="https://www.facebook.com/messages/t/100000576207215"><i class="fa-brands fa-facebook-messenger fa-sm" ></i></i></i></a></li>
+                      <li><a href="https://web.telegram.org/a/"><i class="fa-brands fa-telegram fa-sm"></i></i></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-google fa-sm"></i></i></i></a></li>
+              
+                      </ul>
+            </div>
+        </section>
+
+        <section class="skill" class="skill" id="skill">
+
+            <div class="container"data-aos="flip-down">
+                <div class="wrapper">
+                    <h1>
+                        My Skills
+                    </h1>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="html-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span>CSS</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="css-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span>Javascript</span>
+                        <span>72%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="js-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="gallery" class="gallery" id="gallery">
+
+            <div class="text">
+            <h1>Gallery</h1>
+            </div>
+            <div class="gallery-content">
+            <div class="radio-btns" role="radiogroup"data-aos="flip-up">
+                <div class="radio-btns__btn" role="radio" aria-checked="false"
+                    tabindex="-1" aria-label="Select image one">
+                    <img
+                        src="./gallery1.jpg"
+                        alt="Image description">
+                </div>
+
+                <div class="radio-btns__btn" role="radio" aria-checked="false"
+                    tabindex="-1" aria-label="Select image two">
+                    <img
+                        src="./gallery2.jpg"
+                        alt="Image description">
+                </div>
+
+                <div class="radio-btns__btn" role="radio" aria-checked="false"
+                    tabindex="-1" aria-label="Select image three">
+                    <img
+                        src="./gallery3.jpg"
+                        alt="Image description">
+                </div>
+
+                <div class="radio-btns__btn" role="radio" aria-checked="false"
+                    tabindex="-1" aria-label="Select image three">
+                    <img
+                        src="./gallery4.jpg"
+                        alt="Image description">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <section class="contact" class="contact" id="contact">
+
+            <div class="contact-contiener">
+                <p>how can you communicate?</p>
+                <h1>Contact Me</h1>
+            </div>
+
+            <div class="container-contact"data-aos="zoom-in">
+                <div class="column">
+                    <form action="/sabi mo yan eh">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname"
+                            placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname"
+                            placeholder="Your last name..">
+
+                        <label for="subject">Message</label>
+                        <textarea id="subject" name="subject"
+                            placeholder="Write something.."
+                            style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+            </div>
+
+            
+            <footer class="footer-content">
+                <h3>Lets Talk</h3>
+                     <ul class="social">
+                             
+                      <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-sm"></i></i></i></a></li>
+                      <li><a href="https://www.facebook.com/messages/t/100000576207215"><i class="fa-brands fa-facebook-messenger fa-sm" ></i></i></i></a></li>
+                      <li><a href="https://web.telegram.org/a/"><i class="fa-brands fa-telegram fa-sm"></i></i></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-google fa-sm"></i></i></i></a></li>
+            
+                     </ul>
+                     <div class="footer-botton">
+                        <p>Copyright &copy; 2023 codeOpemacy.designby by <span class="">JULIA</span></p>
+                     </div>
+               </footer>
+
+        </section>
+
+
+
+
+
+
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+      AOS.init();
+    </script>
+    </body>
+</html>
